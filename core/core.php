@@ -3,9 +3,9 @@
  date_default_timezone_set('America/Caracas');
   
  //definimos ruta y titulo del sitio
- define('URL_VIEW','http://localhost/prueba/login-mvc/view/');
+ define('URL_VIEW','http://localhost/prueba/visualchilelta/view/');
  define('TITLE_WEB','Examen PHP MVC POO');
- define('URL_WEB','http://localhost/prueba/login-mvc/');
+ define('URL_WEB','http://localhost/prueba/visualchilelta/');
  define('NOMBRE_WEB','Examen PHP MVC');
  
  //definimos url de inicios

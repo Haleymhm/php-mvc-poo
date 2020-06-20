@@ -16,7 +16,14 @@
     <ul class="sidebar-menu">
       <li class="header">MENU OPCIONES</li>
       <!-- Optionally, you can add icons to the links -->
-      <li class="active"><a href="http://www.bloguero-ec.com" target="_blank"><i class="fa fa-link"></i> <span>Bloguero-ec</span></a></li>
+      <li class="active"><a href="user.php"><i class="fa fa-users"></i> <span>Usuarios</span></a></li>
+      <br />
+      <li>
+        <a href="<?php echo URL_WEB; ?>controller/LogoutController.php" >
+          <i class="fa fa-users"></i> <span>Salir</span>
+        </a>
+      </li>
+      
     </ul>
     <!-- /.sidebar-menu -->
   </section>

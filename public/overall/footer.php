@@ -1,5 +1,5 @@
 <!-- jQuery 2.2.3 -->
-<cript src="<?php echo URL_VIEW; ?>bootstrap-default/js/jquery-2.2.3.min.js"></script>
+<cript src="<?php echo URL_VIEW; ?>bootstrap-default/js/jquery.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="<?php echo URL_VIEW; ?>bootstrap-default/bootstrap/js/bootstrap.min.js"></script>
 <script src="<?php echo URL_VIEW; ?>bootstrap-default/js/app.min.js"></script>

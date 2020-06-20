@@ -20,13 +20,13 @@ function goLogin() {
     } else if(connect.readyState != 4) {
       result = '<div class="alert alert-form alert-warning text-xs-center">';
       result += '<span>Procesando...';
-      result += '<strong> espere porfavor....   </strong> <img src="http://localhost/prueba/login-mvc/view/bootstrap-default/img/ajax-loader.gif"> </span>';
+      result += '<strong> espere porfavor....   </strong> <img src="http://localhost/prueba/visualchilelta/view/bootstrap-default/img/ajax-loader.gif"> </span>';
       result += '</div>';
       __('_AJAX_LOGIN_').innerHTML = result;
     }
   }
  
-  connect.open('POST','http://localhost/prueba/login-mvc/ajax.php?mode=login',true);
+  connect.open('POST','http://localhost/prueba/visualchilelta/ajax.php?mode=login',true);
   connect.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
   connect.send(form);
 }
