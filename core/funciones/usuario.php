@@ -16,5 +16,21 @@ function User() {
  
   return $user;
 }
- 
+
+function listUser() {
+  //instaciamos la conexion
+ $db = new Conexion();
+ $sql = $db->query("SELECT * FROM tabla;");
+ if($sql->num_rows > 0) {
+   while($d = $sql->fetch_array()) {
+     $user[$d['id_user']] = $d;
+   }
+ } else {
+   $user = false;
+ }
+ $sql->free();
+ $db->close();
+
+ return $user;
+}
 ?>
